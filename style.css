@@ -1,0 +1,193 @@
+body {
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.hero-section {
+    height: 80vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url('./assets/banner-image.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: start;
+    color: rgb(255, 255, 255);
+    padding-left: 50px;
+
+}
+
+
+.hero-section h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+
+.hero-section p {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+    line-height: 1.6;
+}
+
+
+
+
+.why-us {
+    padding: 80px 0px;
+    background-color: #f9fafb;
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+.why-text {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.why-text h1 {
+    font-size: 2.5rem;
+    margin-bottom: 15px;
+}
+
+.why-text>p {
+    font-size: 1.1rem;
+    color: #555;
+    margin-bottom: 50px;
+}
+
+.why-cards {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+}
+
+.card {
+    background-color: white;
+    padding: 30px 20px;
+    border-radius: 10px;
+    border: 1px solid rgb(206, 203, 199);
+}
+
+
+.card i {
+    font-size: 40px;
+    color: #2563eb;
+    margin-bottom: 20px;
+}
+
+.card h2 {
+    font-size: 1.3rem;
+    margin-bottom: 10px;
+}
+
+.card p {
+    font-size: 0.95rem;
+    color: #666;
+    line-height: 1.6;
+}
+
+
+
+.trending-now {
+    padding: 0px 20px 100px 20px;
+    background-color: #f8fafc;
+}
+
+.section-title {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 50px;
+}
+
+
+
+.trending-cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+}
+
+
+.trending-card {
+    background: #fff;
+    border-radius: 12px;
+   
+  
+}
+
+
+.card-image {
+    position: relative;
+}
+
+.card-image img {
+    width: 300px;
+    height: 300px;
+}
+
+
+
+
+.card-content {
+    padding: 20px;
+}
+
+.card-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.card-info h3 {
+    font-size: 1.1rem;
+}
+
+.price {
+    font-weight: bold;
+    color: #2563eb;
+}
+
+
+
+.card-buttons {
+    display: flex;
+    gap: 10px;
+}
+
+.card-buttons button {
+    flex: 1;
+    padding: 10px;
+    border-radius: 6px;
+    font-weight: 500;
+}
+
+.btn-outline {
+    border: 1px solid #2563eb;
+    background: transparent;
+    color: #2563eb;
+}
+
+
+
+.btn-primary {
+    border: none;
+    background: #2563eb;
+    color: white;
+}
+
+.card-tags{
+    display: block;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+
+.footer{
+
+    padding: 20px 30px;
+}

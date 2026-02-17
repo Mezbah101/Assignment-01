@@ -1,12 +1,297 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Assignment Website</title>
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Running Daisy UI through CDN -->
+
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+    <!-- Running Tailwind CSS using CDN -->
+
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+    <!-- Font Awesome Free CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+
 </head>
+
+<title>Assignment Website</title>
+
+</head>
+
 <body>
-    <h1> Let's see what happens.</h1>
-    <p>In Shaa Allah. I can and I will.</p>
+    <header>
+
+        <div class="navbar bg-base-100 shadow-sm">
+            <div class="navbar-start">
+                <div class="dropdown">
+                    <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
+                            stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M4 6h16M4 12h8m-8 6h16" />
+                        </svg>
+                    </div>
+                    <ul tabindex="-1"
+                        class="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow">
+                        <li><a>Home</a></li>
+                        <li><a>Products</a></li>
+                        <li><a>About</a></li>
+                        <li><a>Contact</a></li>
+                    </ul>
+                </div>
+                <a class="btn btn-ghost text-xl text-blue-700">SwiftCart</a>
+            </div>
+            <div class="navbar-center hidden lg:flex">
+                <ul class="menu menu-horizontal px-1">
+                    <li><a>Home</a></li>
+                    <li><a>Products</a></li>
+                    <li><a>About</a></li>
+                    <li><a>Contact</a></li>
+                </ul>
+            </div>
+            <div class="navbar-end">
+                <a class="btn"> <i class="fa-solid fa-cart-arrow-down"></i></a>
+            </div>
+        </div>
+    </header>
+
+    <section class="hero-section">
+        <div class="hero-items">
+            <h1>Best Collection For You</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora impedit recusandae blanditiis aliquid?
+                Ut quos, ipsam nulla facere soluta aliquam sint eum odit asperiores illo magni quas sunt doloremque.
+                Officiis exercitationem nam vel non dolor natus omnis consectetur tenetur. Laudantium iure
+                exercitationem necessitatibus sed porro similique consequuntur sapiente non natus?</p>
+            <a href="" class="btn btn-primary">Shop Now</a>
+
+        </div>
+    </section>
+
+
+
+    <section class="why-us">
+        <div class="why-text">
+            <h1>Why Choose Us</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio tenetur eaque nostrum, ipsa adipisci vitae!
+            </p>
+            <div class="why-cards">
+                <div class="card">
+                    <a href=""><i class="fa-solid fa-truck-pickup"></i></a>
+                    <h2>Fast Delivery</h2>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolore, harum!</p>
+                </div>
+                <div class="card">
+                    <a href=""><i class="fa-solid fa-headphones"></i></a>
+                    <h2>24/7 Support</h2>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolore, harum!</p>
+                </div>
+                <div class="card">
+                    <a href=""><i class="fa-solid fa-shield"></i></a>
+                    <h2>Secure Payment</h2>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolore, harum!</p>
+                </div>
+                <div class="card">
+                    <a href=""><i class="fa-solid fa-arrow-rotate-left"></i></a>
+                    <h2>Easy Returns</h2>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolore, harum!</p>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+
+<!-- 
+    <section class="trending-now">
+        <h1> Trending Now</h1>
+        <div class="trending-cards">
+            <div class="trending-card">
+                <img src="" alt="" srcset="">
+                <div class="card-label">
+                    <p>Men's Clothing</p>
+                    <p>Icon</p>
+                </div>
+                <div class="card-info">
+                    <h1>Name</h1>
+                    <h1>Price</h1>
+                </div>
+                <div class="card-buttons">
+                    <button>Details</button>
+                    <button>Add</button>
+                </div>
+            </div>
+            <div class="trending-card">
+                <img src="" alt="" srcset="">
+                <div class="card-label">
+                    <p>Men's Clothing</p>
+                    <p>Icon</p>
+                </div>
+                <div class="card-info">
+                    <h1>Name</h1>
+                    <h1>Price</h1>
+                </div>
+                <div class="card-buttons">
+                    <button>Details</button>
+                    <button>Add</button>
+                </div>
+            </div>
+            <div class="trending-card">
+                <img src="" alt="" srcset="">
+                <div class="card-label">
+                    <p>Men's Clothing</p>
+                    <p>Icon</p>
+                </div>
+                <div class="card-info">
+                    <h1>Name</h1>
+                    <h1>Price</h1>
+                </div>
+                <div class="card-buttons">
+                    <button>Details</button>
+                    <button>Add</button>
+                </div>
+            </div>
+           
+        </div>
+    </section>
+ -->
+
+
+
+
+
+
+    <section class="trending-now">
+    <div class="container">
+        <h2 class="section-title">Trending Now</h2>
+
+        <div class="trending-cards">
+
+            <!-- Card 1 -->
+            <div class="trending-card">
+                <div class="card-image">
+                    <img src="./assets/cardimage1.png" alt="Product">
+                </div>
+
+                <div class="card-tags">
+                     <span class="category">Men's Clothing</span>
+                     <span class="rating">Rating</span>
+                </div>
+
+                <div class="card-content">
+                    <div class="card-info">
+                        <h3>Classic Jacket</h3>
+                        <p class="price">$89.00</p>
+                    </div>
+
+                    <div class="card-buttons">
+                        <button class="btn-outline">Details</button>
+                        <button class="btn-primary">Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+             <!-- Card 2 -->
+            <div class="trending-card">
+                <div class="card-image">
+                    <img src="./assets/cardimage2.png" alt="Product">
+                   
+                </div>
+                 <div class="card-tags">
+                     <span class="category">Men's Clothing</span>
+                     <span class="rating">Rating</span>
+                </div>
+
+                <div class="card-content">
+                    <div class="card-info">
+                        <h3>Classic Jacket</h3>
+                        <p class="price">$89.00</p>
+                    </div>
+
+                    <div class="card-buttons">
+                        <button class="btn-outline">Details</button>
+                        <button class="btn-primary">Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+             <!-- Card 3 -->
+            <div class="trending-card">
+                <div class="card-image">
+                    <img src="./assets/cardimage3.png" alt="Product">
+                </div>
+
+                 <div class="card-tags">
+                     <span class="category">Men's Clothing</span>
+                     <span class="rating">Rating</span>
+                </div>
+
+                <div class="card-content">
+                    <div class="card-info">
+                        <h3>Classic Jacket</h3>
+                        <p class="price">$89.00</p>
+                    </div>
+
+                    <div class="card-buttons">
+                        <button class="btn-outline">Details</button>
+                        <button class="btn-primary">Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Repeat for other cards -->
+
+        </div>
+    </div>
+</section>
+
+
+
+<footer class="footer sm:footer-horizontal bg-base-200 text-white p-10 bg-blue-900">
+  <nav>
+    <h6 class="footer-title">Services</h6>
+    <a class="link link-hover">Branding</a>
+    <a class="link link-hover">Design</a>
+    <a class="link link-hover">Marketing</a>
+    <a class="link link-hover">Advertisement</a>
+  </nav>
+  <nav>
+    <h6 class="footer-title">Company</h6>
+    <a class="link link-hover">About us</a>
+    <a class="link link-hover">Contact</a>
+    <a class="link link-hover">Jobs</a>
+    <a class="link link-hover">Press kit</a>
+  </nav>
+  <nav>
+    <h6 class="footer-title">Legal</h6>
+    <a class="link link-hover">Terms of use</a>
+    <a class="link link-hover">Privacy policy</a>
+    <a class="link link-hover">Cookie policy</a>
+  </nav>
+  <form>
+    <h6 class="footer-title">Newsletter</h6>
+    <fieldset class="w-80">
+      <label>Enter your email address</label>
+      <div class="join">
+        <input
+          type="text"
+          placeholder="username@site.com"
+          class="input input-bordered join-item" />
+        <button class="btn btn-primary join-item">Subscribe</button>
+      </div>
+    </fieldset>
+  </form>
+</footer>
+
+
+
+
+
 </body>
+
 </html>
